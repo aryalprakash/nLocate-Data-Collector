@@ -79,7 +79,7 @@ var app = {
             "latitude": lat,
             "longitude": long
         };
-        alert("title"+entry.title+ "Lat: "+entry.latitude+ "Long: "+ entry.longitude);
+        alert(entry+"title"+entry.title+ "Lat: "+entry.latitude+ "Long: "+ entry.longitude);
         window.localStorage.setItem("entry", JSON.stringify(entry));
         var allEntries = JSON.parse(window.localStorage.getItem("allEntries")) || [];
         allEntries.push(entry);
