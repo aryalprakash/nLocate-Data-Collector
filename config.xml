@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.nLocateSpot"
+        version   = "1.0.0">
+
+    <name>nLocate Spot Collector</name>
+
+    <description>
+        Capture the spots to collect data for nLocate
+    </description>
+
+    <author href="https://nlocate.com" email="hey@nlocate.com">
+        nLocate Team
+    </author>
+
+    <preference name="phonegap-version" value="3.0.0" /> 
+
+    <gap:plugin name="org.apache.cordova.core.camera" />
+</widget>
